@@ -5,11 +5,14 @@
 
 body, p {
   font-family: 'Roboto Condensed', sans-serif;
+  color: #666666;
   height: 100vh;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Lora', serif;;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: #5cb85c;
 }
 
 h1 { font-size: 2em; }
@@ -21,3 +24,34 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+/* entire layout */
+.container {
+  width: 400px;
+}
+
+/* margin right for buttons in layout */
+.margin-right {
+  margin-right: 10px;
+}
+
+/* list div */
+.list {
+  width: 402px;
+  height: 402px;
+  margin-bottom: 10px;
+  border: 1px solid #666666;
+  overflow: hidden;
+}
+
+/* individual items */
+.item {
+  border-bottom: 1px solid #666666;
+  padding: 10px;
+}
+
+.itemTitle {
+  color: #999999;
+  margin: 10px;
+}
+
